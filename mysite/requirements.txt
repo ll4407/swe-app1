@@ -1,5 +1,6 @@
 black==23.9.1
 click==8.1.7
+coverage==7.3.2
 Django==2.2
 flake8==6.1.0
 mccabe==0.7.0
