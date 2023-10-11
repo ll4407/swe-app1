@@ -8,7 +8,7 @@ install:
 
 before_script:
   - python mysite/manage.py migrate
-  - python mmysite/anage.py collectstatic --noinput
+  - python mysite/anage.py collectstatic --noinput
 
 script:
   - black --check .
