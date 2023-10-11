@@ -11,7 +11,7 @@ before_script:
   - python mysite/manage.py collectstatic --noinput
 
 script:
-  - black .
+  - black --check .
   - flake8 .
   - coverage run mysite/manage.py test
 
