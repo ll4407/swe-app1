@@ -13,7 +13,7 @@ before_script:
 script:
   - black --check .
   - flake8 .
-  - coverage run mysite/mmanage.py test
+  - coverage run mysite/manage.py test
 
 after_script:
   - coveralls
