@@ -14,3 +14,6 @@ script:
   - black --check .
   - flake8 .
   - coverage run --source=mysite/mysite,manage.py test polls
+
+after_script:
+  - coveralls
