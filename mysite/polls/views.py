@@ -7,7 +7,7 @@ from django.views import generic
 # from django.template import loader
 # from django.http import Http404
 
-from .models import Question
+from .models import Choice, Question
 
 
 """def index(request):
