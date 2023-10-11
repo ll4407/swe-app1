@@ -17,7 +17,6 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
@@ -27,10 +26,7 @@ SECRET_KEY = "django-insecure-#!0t5&x0w^)@1_jek)(f_wgpu7qg42#zdstdb1ze-)2p=cs4ka
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    "mysite-env.eba-ve8eupxp.us-east-1.elasticbeanstalk.com",
-    "127.0.0.1"
-    ]
+ALLOWED_HOSTS = ["mysite-env.eba-ve8eupxp.us-east-1.elasticbeanstalk.com", "127.0.0.1"]
 
 
 # Application definition
