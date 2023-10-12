@@ -29,4 +29,5 @@ deploy:
   env: mysite2-dev
   bucket_name: awscache-mysite2-bucket
   on:
+      repo: ll4407/swe-app1
       branch: main
