@@ -28,7 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     "mysite-env.eba-ve8eupxp.us-east-1.elasticbeanstalk.com",
     "127.0.0.1",
-    "mysite2-dev.us-east-1.elasticbeanstalk.com",
+    "mysite2-dev.us-east-1.elasticbeanstalk.com"
 ]
 
 
