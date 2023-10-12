@@ -14,7 +14,7 @@ script:
   - black --check .
   - flake8 .
   - coverage run mysite/manage.py test
-  - covererage html
+  - coverage html
 
 after_script:
   - coveralls
